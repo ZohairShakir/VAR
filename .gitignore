@@ -1,0 +1,65 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, type-checker, linter, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editors and local tooling
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and interrupted temporary outputs
+*.log
+*.tmp
+*.partial
+
+# Local inputs, uploads, downloaded weights, and generated outputs
+data/clips/*
+data/uploads/*
+data/weights/*
+data/outputs/*
+!data/clips/.gitkeep
+!data/uploads/.gitkeep
+!data/weights/.gitkeep
+!data/outputs/.gitkeep
+
+# Machine-learning weights and experiment directories
+*.pt
+*.pth
+*.onnx
+*.engine
+runs/
+wandb/
+mlruns/
+

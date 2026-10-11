@@ -1,0 +1,14 @@
+# Stages 1-5 runtime (Python 3.11)
+numpy>=1.26,<3
+opencv-python>=4.10,<5
+imageio-ffmpeg>=0.6,<1
+# Downloads the published pitch-keypoint weights used in Stage 3.
+gdown>=5.2,<6
+ultralytics>=8.3,<9
+# ByteTrack remains bundled through 0.30; it is removed in supervision 0.31.
+supervision>=0.30,<0.31
+scikit-learn>=1.4,<2
+streamlit>=1.40,<2
+
+# Tests
+pytest>=8.3,<9
